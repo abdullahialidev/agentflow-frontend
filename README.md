@@ -1,77 +1,36 @@
-# 🧠 AgentFlow Frontend
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-> A responsive crypto dashboard built with **Next.js 15**, **Tailwind CSS 4**, and **Recharts**, designed to match the Behance UI/UX spec and serve as the foundation for a real-time, data-connected web app.
+## Getting Started
 
----
+First, run the development server:
 
-## 🚀 Tech Stack
-- **Framework**: [Next.js 15](https://nextjs.org/)
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
-- **Charts**: [Recharts](https://recharts.org/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-
----
-
-## 📁 Project Structure
-agentflow-frontend/
-├── app/
-│ └── page.tsx # Main dashboard
-├── components/
-│ └── ui/
-│ ├── button.tsx # Reusable button component
-│ └── card.tsx # Reusable card components
-├── public/
-│ └── favicon.ico (optional)
-├── styles/
-│ └── globals.css
-├── tailwind.config.ts
-├── tsconfig.json
-├── package.json
-├── next.config.js
-└── README.md
-
-yaml
-Copy
-Edit
-
----
-
-## 📦 Setup & Run
-
-### Install dependencies:
 ```bash
-npm install
-Start local dev server:
-bash
-Copy
-Edit
 npm run dev
-Then go to http://localhost:3000
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-🔮 Features
-Fully responsive layout (mobile → desktop)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Sidebar navigation
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Topbar with Connect Wallet CTA and profile image
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Interactive line chart (dummy data)
+## Learn More
 
-Search + filter support
+To learn more about Next.js, take a look at the following resources:
 
-Animated crypto cards with state selection
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-🛠 Future Goals
-Connect to real API (e.g., CoinGecko)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Add user authentication
+## Deploy on Vercel
 
-Implement Web3 wallet integration
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Add data validation & loading states
-
-🧑‍💻 Author
-Built by Abdullahi Ali
-
-📄 License
-MIT
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
